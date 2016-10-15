@@ -28,6 +28,8 @@ public partial class _Default : System.Web.UI.Page
         AuthOBJ.Password = "$$1234#@$";
 
        lblmsg.Text = ObjIVR.CalltoCCStart("1010101010", "l.j", "1234", "11052015090521", AuthOBJ);
+       lblmsg.Text = ObjIVR.CalltoCCStart("1010101020", "l.j", "1234", "11052015090521", AuthOBJ);
+
         /*API-1*/
      //   lblmsg.Text = ObjIVR.GetCustomerStatus("", "Kishor12", "16082016100521", AuthOBJ);
 
